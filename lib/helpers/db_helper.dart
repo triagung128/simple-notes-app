@@ -1,7 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:path/path.dart';
 import 'package:sqflite/sqflite.dart';
 
-import 'note.dart';
+import '../models/note.dart';
 
 class DbHelper {
   static DbHelper? _dbHelper;
@@ -41,7 +42,7 @@ class DbHelper {
   Future<void> insertNote(Note note) async {
     final Database db = await database;
     await db.insert(_tableName, note.toMap());
-    print('Data saved');
+    debugPrint('Data saved');
   }
 
   Future<List<Note>> getNotes() async {

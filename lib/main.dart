@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'db_provider.dart';
-import 'note_list_page.dart';
+import 'providers/db_provider.dart';
+import '/pages/note_list_page.dart';
 
 void main() {
   runApp(const MyApp());

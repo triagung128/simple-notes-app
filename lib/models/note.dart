@@ -3,7 +3,11 @@ class Note {
   late String title;
   late String description;
 
-  Note({this.id, required this.title, required this.description});
+  Note({
+    this.id,
+    required this.title,
+    required this.description,
+  });
 
   Map<String, dynamic> toMap() {
     return {

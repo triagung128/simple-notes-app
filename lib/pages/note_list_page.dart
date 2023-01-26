@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'db_provider.dart';
+import '../providers/db_provider.dart';
 import 'note_add_update_page.dart';
 
 class NoteListPage extends StatelessWidget {
