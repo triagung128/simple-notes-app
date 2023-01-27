@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
       create: (context) => DbProvider(),
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: 'Simple Note App',
         theme: ThemeData(
           primarySwatch: Colors.blue,
