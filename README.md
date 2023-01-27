@@ -1,16 +1,17 @@
-# simple_note_app
+# Simple Notes App
+Notes application built using flutter.
 
-A new Flutter project.
+![Thumbnail](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/1.png)
 
-## Getting Started
+## State Management
+- Flutter Provider
 
-This project is a starting point for a Flutter application.
+## Local Storage
+- SQFLITE
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+![Screenshots 1](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/2.png)
+![Screenshots 2](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/3.png)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Reference UI Design
+- https://www.figma.com/community/file/1014161465589596715
