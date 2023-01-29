@@ -10,8 +10,7 @@ Notes application built using flutter.
 - SQFLITE
 
 ## Screenshots
-![Screenshots 1](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/2.png)
-![Screenshots 2](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/3.png)
+![Screenshots](https://github.com/triagung128/simple-notes-app/blob/master/assets/banners/2.png)
 
 ## Reference UI Design
 - https://www.figma.com/community/file/1014161465589596715
